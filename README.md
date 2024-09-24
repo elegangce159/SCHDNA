@@ -15,3 +15,19 @@ Run genome processing scripts. usage: whaleinside [-h] [-d /path/to/base] [-i /p
 
 '-s', '--start-step', type=int, default=1, choices=[1, 2, 3, 4, 5, 6, 7]
 choices help='Step to start the process from (default: 1; Trim: 1, ReadCheck: 2, Assembly: 3, Scaffold: 4, Prediction: 5, Estimation: 6, RepeatMasker: 7)'
+
+
+
+To use this program, you must prepare a configuration file.
+
+
+config.txt
+===================================================================
+TRIMMOMATIC_PATH=/path/Trimmomatic-0.36/trimmomatic-0.36.jar
+ADAPTER_PATH=/path/Trimmomatic-0.36/adapters/TruSeq3-PE.fa
+MEGAHIT_PATH=/path/MEGAHIT-1.2.9-Linux-x86_64-static/bin/megahit
+SOAPdenovo_PATH=/path/SOAPdenovo2/SOAPdenovo-fusion
+BRAKER_PATH=/path/BRAKER/scripts/braker.pl
+REPEATMASKER_PATH=/path/repeat-annotation/RepeatMasker/RepeatMasker
+====================================================================
+
