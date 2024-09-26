@@ -1,9 +1,12 @@
 # WHALEINSIDE
 # De novo genome analysis
 
-made by Song Dae Kwon
 
 ![W_merge](https://github.com/user-attachments/assets/e2a15b2c-dc39-437d-a297-725e0b40a808)
+
+made by Song Dae Kwon
+
+
 
 
 Run genome processing scripts. usage: whaleinside [-h] [-d /path/to/base] [-i /path/to/raw_1.fq.gz /path/to/raw_2.fq.gz] [-c /path/config_file]
