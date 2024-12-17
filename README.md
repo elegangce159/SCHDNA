@@ -1,8 +1,6 @@
-# WHALEINSIDE
-# De novo genome analysis
+# SCHDNA
+# De novo assembly analysis software by SCH university
 
-
-![W_merge](https://github.com/user-attachments/assets/e2a15b2c-dc39-437d-a297-725e0b40a808)
 
 made by Song Dae Kwon
 
