@@ -7,7 +7,7 @@ made by Song
 
 
 
-Run genome & transcriptome analysis processing scripts. usage: SCHDNA.py [-h] -d DIRECTORY -i INPUT INPUT -c CONFIG [-s START_STEP] [-transcriptome] [-genome]
+Run genome & transcriptome analysis processing scripts. usage: SCHDNA.py [-h] [-d DIRECTORY] [-i INPUT INPUT] [-c CONFIG] [-s START_STEP] [-transcriptome] [-genome]
 
 '-h', --help            show this help message and exit
   
