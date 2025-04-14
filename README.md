@@ -30,17 +30,22 @@ config.txt
 
 ####################################################################
 
-TRIMMOMATIC_PATH=/path/Trimmomatic-0.36/trimmomatic-0.36.jar
+TRIMMOMATIC_PATH=/home/yslee/Trimmomatic-0.36/trimmomatic-0.36.jar
 
-ADAPTER_PATH=/path/Trimmomatic-0.36/adapters/TruSeq3-PE.fa
 
-MEGAHIT_PATH=/path/MEGAHIT-1.2.9-Linux-x86_64-static/bin/megahit
+ADAPTER_PATH=/home/yslee/Trimmomatic-0.36/adapters/TruSeq3-PE.fa
 
-SOAPdenovo_PATH=/path/SOAPdenovo2/SOAPdenovo-fusion
+MEGAHIT_PATH=/home/yslee/MEGAHIT-1.2.9-Linux-x86_64-static/bin/megahit
 
-BRAKER_PATH=/path/BRAKER/scripts/braker.pl
+SSPACE_PATH=/home/yslee/SSPACE-STANDARD-3.0_linux-x86_64/SSPACE_Standard_v3.0.pl
 
-REPEATMASKER_PATH=/path/repeat-annotation/RepeatMasker/RepeatMasker
+GAPFILLER_PATH=/home/yslee/SSPACE-STANDARD-3.0_linux-x86_64/GapFiller.pl
+
+TRINITY_PATH=/home/yslee/trinityrnaseq-v2.15.2/Trinity
+
+TRANSD_PATH=/home/yslee/TransDecoder
+
+TGICL_PATH=/home/yslee/TGICL-2.1/bin/tgicl
 
 ####################################################################
 
