@@ -2,7 +2,7 @@
 # De novo assembly analysis software by SCH university
 
 
-made by Song Dae Kwon
+made by SCH university
 
 
 
