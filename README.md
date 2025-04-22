@@ -20,7 +20,9 @@ Run genome & transcriptome analysis processing scripts. usage: SCHDNA.py [-h] [-
 '-s', '--start-step', type=int, default=1, choices=[1, 2, 3, 4, 5, 6, 7]
 choices help='Step to start the process from (default: 1; Trim: 1, ReadCheck: 2, Assembly: 3, Scaffold: 4, Prediction: 5, Estimation: 6, RepeatMasker: 7)'
 
+
 '-transcriptome'        Run the transcriptome pipeline. SCHDNA [-h] [-transcriptome] [-d /path/to/base] [-i /path/to/raw_1.fq.gz /path/to/raw_2.fq.gz] [-c /path/config_file] [-s START_STEP]
+
 '-genome'               Run the genome pipeline. SCHDNA [-h] [-genome] [-d /path/to/base] [-i /path/to/raw_1.fq.gz /path/to/raw_2.fq.gz] [-c /path/config_file] [-s START_STEP]
 
 To use this program, you must prepare a configuration file.
