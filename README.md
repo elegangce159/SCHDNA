@@ -26,9 +26,23 @@ choices help='Step to start the process from (default: 1; Trim: 1, ReadCheck: 2,
 To use this program, you must prepare a configuration file.
 
 
+
+
+
 config.txt
 
 ####################################################################
+
+## Transcriptome
+
+TRINITY_PATH=/path/trinityrnaseq-v2.15.2/Trinity
+
+TRANSD_PATH=/path/TransDecoder
+
+TGICL_PATH=/path/TGICL-2.1/bin/tgicl
+
+
+## Genome
 
 TRIMMOMATIC_PATH=/path/Trimmomatic-0.36/trimmomatic-0.36.jar
 
@@ -40,11 +54,7 @@ SSPACE_PATH=/path/SSPACE-STANDARD-3.0_linux-x86_64/SSPACE_Standard_v3.0.pl
 
 GAPFILLER_PATH=/path/SSPACE-STANDARD-3.0_linux-x86_64/GapFiller.pl
 
-TRINITY_PATH=/path/trinityrnaseq-v2.15.2/Trinity
 
-TRANSD_PATH=/path/TransDecoder
-
-TGICL_PATH=/path/TGICL-2.1/bin/tgicl
 
 ####################################################################
 
