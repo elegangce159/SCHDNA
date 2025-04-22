@@ -29,11 +29,9 @@ To use this program, you must prepare a configuration file.
 
 
 
-config.txt
+## Making config.txt
 
-####################################################################
-
-## Transcriptome
+# Transcriptome
 
 TRINITY_PATH=/path/trinityrnaseq-v2.15.2/Trinity
 
@@ -42,7 +40,7 @@ TRANSD_PATH=/path/TransDecoder
 TGICL_PATH=/path/TGICL-2.1/bin/tgicl
 
 
-## Genome
+# Genome
 
 TRIMMOMATIC_PATH=/path/Trimmomatic-0.36/trimmomatic-0.36.jar
 
