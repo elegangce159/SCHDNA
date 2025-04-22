@@ -1,4 +1,4 @@
-# SCHDNA
+# SCHDNA ver2.0
 # De novo assembly analysis software by SCH university
 
 
